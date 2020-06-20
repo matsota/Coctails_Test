@@ -51,6 +51,8 @@ class DrinkListViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(DrinkTableViewCell.nib(), forCellReuseIdentifier: NavigationCases.Transition.DrinkTVCell.rawValue)
+        
+        hideKeyboardWhenTappedAround()
 }
     
     
