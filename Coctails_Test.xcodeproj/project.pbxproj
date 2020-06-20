@@ -3,29 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F2BA404249B8B6100F00E39 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BA403249B8B6100F00E39 /* Category.swift */; };
+		8F2BA406249B8DD500F00E39 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BA405249B8DD500F00E39 /* CategoryList.swift */; };
+		8F2BA409249B8F2600F00E39 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BA408249B8F2600F00E39 /* CategoryTableViewCell.swift */; };
+		8F2BA40B249B8F3D00F00E39 /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BA40A249B8F3D00F00E39 /* CategoryListViewController.swift */; };
+		8F2BA40D249B8F4700F00E39 /* CategoryList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2BA40C249B8F4700F00E39 /* CategoryList.storyboard */; };
+		8F2BA418249CC0A800F00E39 /* DrinksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BA416249CC0A800F00E39 /* DrinksCollectionViewCell.swift */; };
+		8F2BA419249CC0A800F00E39 /* DrinksCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2BA417249CC0A800F00E39 /* DrinksCollectionViewCell.xib */; };
+		8F2BA41C249CD6D700F00E39 /* DrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2BA41A249CD6D600F00E39 /* DrinkTableViewCell.swift */; };
+		8F2BA41D249CD6D700F00E39 /* DrinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2BA41B249CD6D600F00E39 /* DrinkTableViewCell.xib */; };
 		8F33B623249B61E6004B3F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B622249B61E6004B3F1D /* AppDelegate.swift */; };
 		8F33B625249B61E6004B3F1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B624249B61E6004B3F1D /* SceneDelegate.swift */; };
-		8F33B627249B61E6004B3F1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B626249B61E6004B3F1D /* ViewController.swift */; };
-		8F33B62A249B61E6004B3F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F33B628249B61E6004B3F1D /* Main.storyboard */; };
+		8F33B627249B61E6004B3F1D /* DrinkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B626249B61E6004B3F1D /* DrinkListViewController.swift */; };
+		8F33B62A249B61E6004B3F1D /* DrinkList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F33B628249B61E6004B3F1D /* DrinkList.storyboard */; };
 		8F33B62D249B61E6004B3F1D /* Coctails_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B62B249B61E6004B3F1D /* Coctails_Test.xcdatamodeld */; };
 		8F33B62F249B61E7004B3F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F33B62E249B61E7004B3F1D /* Assets.xcassets */; };
 		8F33B632249B61E7004B3F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F33B630249B61E7004B3F1D /* LaunchScreen.storyboard */; };
+		8F33B63B249B631A004B3F1D /* NavigationCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B63A249B631A004B3F1D /* NavigationCases.swift */; };
+		8F33B640249B652A004B3F1D /* DrinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B63F249B652A004B3F1D /* DrinkList.swift */; };
+		8F33B643249B6586004B3F1D /* DrinkLibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B642249B6586004B3F1D /* DrinkLibraryManager.swift */; };
+		8F33B64D249B6809004B3F1D /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33B64C249B6809004B3F1D /* Drink.swift */; };
+		8FB5878D249E13FE00ACD472 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5878C249E13FE00ACD472 /* PersistenceService.swift */; };
+		8FB5878F249E15B800ACD472 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5878E249E15B800ACD472 /* CoreDataManager.swift */; };
+		8FB58791249E1F5200ACD472 /* AlertController + Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB58790249E1F5200ACD472 /* AlertController + Custom.swift */; };
+		8FB58793249E1FCB00ACD472 /* UIViewController + Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB58792249E1FCB00ACD472 /* UIViewController + Custom.swift */; };
+		ACCFFA51F05BDE51FDC89DDA /* Pods_Coctails_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C8162B8345EC71B96DEE855 /* Pods_Coctails_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C06F227D3A505390719EC8D /* Pods-Coctails_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coctails_Test.debug.xcconfig"; path = "Target Support Files/Pods-Coctails_Test/Pods-Coctails_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		5C8162B8345EC71B96DEE855 /* Pods_Coctails_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coctails_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2BA403249B8B6100F00E39 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		8F2BA405249B8DD500F00E39 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		8F2BA408249B8F2600F00E39 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		8F2BA40A249B8F3D00F00E39 /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		8F2BA40C249B8F4700F00E39 /* CategoryList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CategoryList.storyboard; sourceTree = "<group>"; };
+		8F2BA416249CC0A800F00E39 /* DrinksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F2BA417249CC0A800F00E39 /* DrinksCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinksCollectionViewCell.xib; sourceTree = "<group>"; };
+		8F2BA41A249CD6D600F00E39 /* DrinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTableViewCell.swift; sourceTree = "<group>"; };
+		8F2BA41B249CD6D600F00E39 /* DrinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinkTableViewCell.xib; sourceTree = "<group>"; };
 		8F33B61F249B61E5004B3F1D /* Coctails_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coctails_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F33B622249B61E6004B3F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F33B624249B61E6004B3F1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F33B626249B61E6004B3F1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8F33B629249B61E6004B3F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F33B626249B61E6004B3F1D /* DrinkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListViewController.swift; sourceTree = "<group>"; };
+		8F33B629249B61E6004B3F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DrinkList.storyboard; sourceTree = "<group>"; };
 		8F33B62C249B61E6004B3F1D /* Coctails_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coctails_Test.xcdatamodel; sourceTree = "<group>"; };
 		8F33B62E249B61E7004B3F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F33B631249B61E7004B3F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F33B633249B61E7004B3F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F33B63A249B631A004B3F1D /* NavigationCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCases.swift; sourceTree = "<group>"; };
+		8F33B63F249B652A004B3F1D /* DrinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkList.swift; sourceTree = "<group>"; };
+		8F33B642249B6586004B3F1D /* DrinkLibraryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkLibraryManager.swift; sourceTree = "<group>"; };
+		8F33B64C249B6809004B3F1D /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		8FB5878C249E13FE00ACD472 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		8FB5878E249E15B800ACD472 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8FB58790249E1F5200ACD472 /* AlertController + Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController + Custom.swift"; sourceTree = "<group>"; };
+		8FB58792249E1FCB00ACD472 /* UIViewController + Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Custom.swift"; sourceTree = "<group>"; };
+		921F9425C7108C77B54CB88C /* Pods-Coctails_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coctails_Test.release.xcconfig"; path = "Target Support Files/Pods-Coctails_Test/Pods-Coctails_Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +71,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCFFA51F05BDE51FDC89DDA /* Pods_Coctails_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A057A8298D1ECCD0F1DA924 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C06F227D3A505390719EC8D /* Pods-Coctails_Test.debug.xcconfig */,
+				921F9425C7108C77B54CB88C /* Pods-Coctails_Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F2BA407249B8F1700F00E39 /* CategoryList */ = {
+			isa = PBXGroup;
+			children = (
+				8F2BA40A249B8F3D00F00E39 /* CategoryListViewController.swift */,
+				8F2BA408249B8F2600F00E39 /* CategoryTableViewCell.swift */,
+				8F2BA40C249B8F4700F00E39 /* CategoryList.storyboard */,
+			);
+			path = CategoryList;
+			sourceTree = "<group>";
+		};
 		8F33B616249B61E5004B3F1D = {
 			isa = PBXGroup;
 			children = (
 				8F33B621249B61E5004B3F1D /* Coctails_Test */,
 				8F33B620249B61E5004B3F1D /* Products */,
+				6A057A8298D1ECCD0F1DA924 /* Pods */,
+				FFDB890525DC8F4DCC4939D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +120,69 @@
 			children = (
 				8F33B622249B61E6004B3F1D /* AppDelegate.swift */,
 				8F33B624249B61E6004B3F1D /* SceneDelegate.swift */,
-				8F33B626249B61E6004B3F1D /* ViewController.swift */,
-				8F33B628249B61E6004B3F1D /* Main.storyboard */,
+				8FB5878C249E13FE00ACD472 /* PersistenceService.swift */,
+				8F33B63E249B651A004B3F1D /* Model */,
+				8F33B641249B6563004B3F1D /* Managers */,
+				8F33B64B249B664C004B3F1D /* Helpers */,
+				8F33B639249B62C2004B3F1D /* CoctailList */,
+				8F2BA407249B8F1700F00E39 /* CategoryList */,
 				8F33B62E249B61E7004B3F1D /* Assets.xcassets */,
 				8F33B630249B61E7004B3F1D /* LaunchScreen.storyboard */,
 				8F33B633249B61E7004B3F1D /* Info.plist */,
 				8F33B62B249B61E6004B3F1D /* Coctails_Test.xcdatamodeld */,
 			);
 			path = Coctails_Test;
+			sourceTree = "<group>";
+		};
+		8F33B639249B62C2004B3F1D /* CoctailList */ = {
+			isa = PBXGroup;
+			children = (
+				8F33B626249B61E6004B3F1D /* DrinkListViewController.swift */,
+				8F2BA41A249CD6D600F00E39 /* DrinkTableViewCell.swift */,
+				8F2BA41B249CD6D600F00E39 /* DrinkTableViewCell.xib */,
+				8F2BA416249CC0A800F00E39 /* DrinksCollectionViewCell.swift */,
+				8F2BA417249CC0A800F00E39 /* DrinksCollectionViewCell.xib */,
+				8F33B628249B61E6004B3F1D /* DrinkList.storyboard */,
+			);
+			path = CoctailList;
+			sourceTree = "<group>";
+		};
+		8F33B63E249B651A004B3F1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F33B63F249B652A004B3F1D /* DrinkList.swift */,
+				8F33B64C249B6809004B3F1D /* Drink.swift */,
+				8F2BA403249B8B6100F00E39 /* Category.swift */,
+				8F2BA405249B8DD500F00E39 /* CategoryList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F33B641249B6563004B3F1D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8F33B642249B6586004B3F1D /* DrinkLibraryManager.swift */,
+				8FB5878E249E15B800ACD472 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8F33B64B249B664C004B3F1D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8FB58790249E1F5200ACD472 /* AlertController + Custom.swift */,
+				8F33B63A249B631A004B3F1D /* NavigationCases.swift */,
+				8FB58792249E1FCB00ACD472 /* UIViewController + Custom.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FFDB890525DC8F4DCC4939D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C8162B8345EC71B96DEE855 /* Pods_Coctails_Test.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F33B636249B61E7004B3F1D /* Build configuration list for PBXNativeTarget "Coctails_Test" */;
 			buildPhases = (
+				17EFC1B6C44F875308C70687 /* [CP] Check Pods Manifest.lock */,
 				8F33B61B249B61E5004B3F1D /* Sources */,
 				8F33B61C249B61E5004B3F1D /* Frameworks */,
 				8F33B61D249B61E5004B3F1D /* Resources */,
+				C368DF2C82637854567101F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,34 +246,93 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F33B632249B61E7004B3F1D /* LaunchScreen.storyboard in Resources */,
+				8F2BA40D249B8F4700F00E39 /* CategoryList.storyboard in Resources */,
 				8F33B62F249B61E7004B3F1D /* Assets.xcassets in Resources */,
-				8F33B62A249B61E6004B3F1D /* Main.storyboard in Resources */,
+				8F33B62A249B61E6004B3F1D /* DrinkList.storyboard in Resources */,
+				8F2BA419249CC0A800F00E39 /* DrinksCollectionViewCell.xib in Resources */,
+				8F2BA41D249CD6D700F00E39 /* DrinkTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17EFC1B6C44F875308C70687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coctails_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C368DF2C82637854567101F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coctails_Test/Pods-Coctails_Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coctails_Test/Pods-Coctails_Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coctails_Test/Pods-Coctails_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F33B61B249B61E5004B3F1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F33B627249B61E6004B3F1D /* ViewController.swift in Sources */,
+				8F33B627249B61E6004B3F1D /* DrinkListViewController.swift in Sources */,
+				8FB58791249E1F5200ACD472 /* AlertController + Custom.swift in Sources */,
 				8F33B623249B61E6004B3F1D /* AppDelegate.swift in Sources */,
 				8F33B625249B61E6004B3F1D /* SceneDelegate.swift in Sources */,
+				8F2BA404249B8B6100F00E39 /* Category.swift in Sources */,
+				8FB58793249E1FCB00ACD472 /* UIViewController + Custom.swift in Sources */,
+				8F33B64D249B6809004B3F1D /* Drink.swift in Sources */,
+				8F2BA40B249B8F3D00F00E39 /* CategoryListViewController.swift in Sources */,
+				8FB5878F249E15B800ACD472 /* CoreDataManager.swift in Sources */,
+				8F33B640249B652A004B3F1D /* DrinkList.swift in Sources */,
 				8F33B62D249B61E6004B3F1D /* Coctails_Test.xcdatamodeld in Sources */,
+				8F33B643249B6586004B3F1D /* DrinkLibraryManager.swift in Sources */,
+				8F2BA406249B8DD500F00E39 /* CategoryList.swift in Sources */,
+				8F2BA418249CC0A800F00E39 /* DrinksCollectionViewCell.swift in Sources */,
+				8F33B63B249B631A004B3F1D /* NavigationCases.swift in Sources */,
+				8FB5878D249E13FE00ACD472 /* PersistenceService.swift in Sources */,
+				8F2BA409249B8F2600F00E39 /* CategoryTableViewCell.swift in Sources */,
+				8F2BA41C249CD6D700F00E39 /* DrinkTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8F33B628249B61E6004B3F1D /* Main.storyboard */ = {
+		8F33B628249B61E6004B3F1D /* DrinkList.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8F33B629249B61E6004B3F1D /* Base */,
 			);
-			name = Main.storyboard;
+			name = DrinkList.storyboard;
 			sourceTree = "<group>";
 		};
 		8F33B630249B61E7004B3F1D /* LaunchScreen.storyboard */ = {
@@ -286,6 +462,7 @@
 		};
 		8F33B637249B61E7004B3F1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C06F227D3A505390719EC8D /* Pods-Coctails_Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +481,7 @@
 		};
 		8F33B638249B61E7004B3F1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921F9425C7108C77B54CB88C /* Pods-Coctails_Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
